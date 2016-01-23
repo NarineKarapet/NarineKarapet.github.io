@@ -1,0 +1,147 @@
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
+    rel="stylesheet" type="text/css">
+    <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css"
+    rel="stylesheet" type="text/css">
+  </head>
+  
+  <body>
+    <div class="cover">
+      <div class="navbar">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><span>Brand</span></a>
+          </div>
+          <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active">
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Contacts</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="background-image-fixed cover-image" style="background-image : url('https://ununsplash.imgix.net/photo-1421284621639-884f4129b61d?w=1024&amp;q=50&amp;fm=jpg&amp;s=9f9c4eb194b84f49e6c6aa624de61ba2')"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h1 class="text-danger">The Law Office of Sally Suffolk</h1>
+            <p class="text-danger">Wills, Estates and Trusts
+              <br>
+              <br>
+              <br>
+            </p>
+            <br>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <img class="img-responsive" src="http://maps.googleapis.com/maps/api/staticmap?center=Tombouctou,Mali&amp;zoom=12&amp;size=200x200&amp;sensor=false">
+          </div>
+          <div class="col-md-5">
+            <p>120 Tremont Street
+              <br>Boston, MA 02108
+              <br>
+              <br>Tel: 251-649-9553
+              <br>Email: sally@suffolk,edu</p>
+          </div>
+          <div class="col-md-4 text-left"></div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="Spring 2016/01 Winter Intersession 2016| Coding the Law/Meg+Ryan+Premiere+Biutiful+Cannes+9lp56fgtzfll.jpg"
+            class="img-responsive">
+          </div>
+          <div class="col-md-6">
+            <h1 class="text-primary">Experience</h1>
+            <h3>Over 20 Years Experience</h3>
+            <p>Divorce is rarely easy, yet it doesn't need to be a traumatic or damaging
+              process. Divorce mediation offers a civilized, sensible and affordable
+              way to end your marriage while keeping the process short and economical.
+              Mediation also lets you and your spouse make your own decisions and control
+              the terms of your divorce. As a leading divorce mediation service in Boston
+              and throughout Massachusetts, every year we help hundreds of couples to
+              file for divorce in a dignified, quick, and affordable way, thus saving
+              our clients and their children the emotional and economic burden of ugly
+              divorce battles.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="text-primary">Training</h1>
+            <h3>Schools, Business, and more</h3>
+            <p>We train educators and young people in a range of research-based, practical
+              programs that build relationships, improve school climate, and increase
+              academic success. Programs include: Peer Mediation, Bullying Prevention,
+              Student Leadership/Student Mentoring, Restorative Discipline/Restorative
+              Practices, Managing Difficult Conversations, Emotional Intelligence, and
+              more…</p>
+          </div>
+          <div class="col-md-6">
+            <img src="Spring 2016/01 Winter Intersession 2016| Coding the Law/divorce_mediaion_ma_team.jpg"
+            class="img-responsive">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-center text-primary">Team</h1>
+            <p class="text-center">We are a group of skilled individuals.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="Spring 2016/01 Winter Intersession 2016| Coding the Law/Alan_Jacobs.jpg"
+            class="center-block img-circle img-responsive">
+            <h3 class="text-center">John James</h3>
+            <p class="text-center">Mediator</p>
+          </div>
+          <div class="col-md-4">
+            <img src="Spring 2016/01 Winter Intersession 2016| Coding the Law/Johnson.png"
+            class="center-block img-circle img-responsive">
+            <h3 class="text-center">Monika Niquax</h3>
+            <p class="text-center">Mediator</p>
+          </div>
+          <div class="col-md-4">
+            <img src="Spring 2016/01 Winter Intersession 2016| Coding the Law/Josh.jpg"
+            class="center-block img-circle img-responsive">
+            <h3 class="text-center">Andrew Sarg</h3>
+            <p class="text-center">Mediator</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>
