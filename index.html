@@ -139,3 +139,41 @@
   </body>
 
 </html>
+
+Before: <h1> Mediation Intake Form</h1>
+
+Q(1): Would you like to give meditation a try?
+A: Yes
+	Q(1.1): Great. Let's get started with a few questions. Are you the Claimant or Respondent?
+	A: Claimant
+		Q(1.1.1):GOTO:2
+	A: Respondent
+		Q(1.1.2):GOTO:2
+A: No, I'd like to go in front of the judge. 
+	Q(1.2): Ok, thank you for your time.
+Q(2): What is your full name?
+X:name
+	Q(2.1):GOTO:3
+Q(3): What is your address?
+X:address
+	Q(3.1):GOTO:4
+Q(4): What is your primary phone number?
+X:phone
+	Q(4.1):GOTO:5
+Q(5): Would you have a concern about sitting in the same room with the other part in an effort to resolve the matters in dispute?
+A: Yes
+	Q(5.1): Please explain your concerns:
+	X:concerns
+		Q(5.1.1): Would you prefer to have someone accompany you if the matter is mediated?
+		A: Yes
+			Q(5.1.1.1): Please state the name of the person you'd like to accompany you in the mediation..
+			X:contact
+				Q(5.1.1.1.1): What is <x>contact</x> 's relationship to you?
+				X:relationship
+					Q(5.1.1.1.1.1): How will <x>contact</x> be of help to you?
+					X:help
+						Q(5.1.1.1.1.1.1): Great! We're all set to start with meditation now.
+		A:No
+			Q(5.1.1.2): Ok.
+A:No
+	Q(5.2): Good.
